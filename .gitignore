@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Distribution / packaging
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Lock files
+*.lock
+
+# Ignore all Python cache folders anywhere
+**/__pycache__/

@@ -1,0 +1,2321 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.6",
+  "serialNumber" : "urn:uuid:6c68e778-9fb6-4009-bd00-78f786eb015e",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2026-09-02T09:44:59Z",
+    "tools" : {
+      "components" : [ {
+        "type" : "application",
+        "author" : "Mend.io",
+        "name" : "CycloneDX report generator",
+        "version" : "1.2.0"
+      } ],
+      "services" : [ ]
+    },
+    "authors" : [ {
+      "name" : "Organization: Actian"
+    }, {
+      "name" : "Person: supplychain (supplychain@actian.com)"
+    } ],
+    "component" : {
+      "type" : "application",
+      "bom-ref" : "6a7e5205-cb66-4850-a7a5-0b3d331e1fc6",
+      "name" : "12.0 Linux1234"
+    },
+    "properties" : [ {
+      "name" : "reportName",
+      "value" : "SBOM_Actian Ingres_Actian Ingres for Linux on x86_64 (a64.lnx)_12.0"
+    } ]
+  },
+  "components" : [ {
+    "type" : "library",
+    "bom-ref" : "Ingres-geo_phase1_final",
+    "group" : "fosslc",
+    "name" : "Ingres-geo_phase1_final",
+    "version" : "geo_phase1_final",
+    "description" : "Ingres is a feature rich and robust database (RDBMS)",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "dff7f463d897ce521e2ae7aae5dbc9f59bd2b040"
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:github/fosslc/ingres@geo_phase1_final",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/fosslc/Ingres.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/fosslc/Ingres/zipball/geo_phase1_final"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "hadoop-hdfs-3.3.3.jar",
+    "group" : "org.apache.hadoop",
+    "name" : "hadoop-hdfs-3.3.3.jar",
+    "version" : "3.3.3",
+    "description" : "Apache Hadoop HDFS",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d4d199760c11d47f90e12fe3882e2b24c77e4eb5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2008 Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.hadoop/hadoop-hdfs@3.3.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://www.apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://www.apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7a2cbb68-d5dd-4e58-9de0-208ecc6cb61f"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "gecko-dev-cb1a97abf3b871b02405f64a585726cc104e5b54",
+    "group" : "mozilla",
+    "name" : "gecko-dev-cb1a97abf3b871b02405f64a585726cc104e5b54",
+    "version" : "cb1a97abf3b871b02405f64a585726cc104e5b54",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cb1a97abf3b871b02405f64a585726cc104e5b54"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MPL-2.0",
+        "url" : "http://mozilla.org/MPL/2.0/index.html"
+      }
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:github/mozilla/gecko-dev@cb1a97abf3b871b02405f64a585726cc104e5b54",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/mozilla/gecko-dev.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/mozilla/gecko-dev/zipball/cb1a97abf3b871b02405f64a585726cc104e5b54"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "cdat-UVCDAT-1.0.0-Ubuntu.10.04-64bit",
+    "group" : "aashish24",
+    "name" : "cdat-UVCDAT-1.0.0-Ubuntu.10.04-64bit",
+    "version" : "UVCDAT-1.0.0-Ubuntu.10.04-64bit",
+    "description" : "Ultrascale Visualization Climate Data Analysis Tools",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e55af60cfe3f096f6617c3ee6d5208c2af706848"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "LGPL-2.1-only",
+        "url" : "http://opensource.org/licenses/lgpl-2.1"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:sourceforge/cdat@UVCDAT-1.0.0-Ubuntu.10.04-64bit",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://sourceforge.net/projects/cdat/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://sourceforge.net/projects/cdat/files/Releases/UV-CDAT/1.0/UVCDAT-1.0.0-Ubuntu.10.04-64bit.tar.bz2/download"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "hadoop-auth-3.3.3.jar",
+    "group" : "org.apache.hadoop",
+    "name" : "hadoop-auth-3.3.3.jar",
+    "version" : "3.3.3",
+    "description" : "Apache Hadoop Auth - Java HTTP SPNEGO",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6788fe94013801dca0712e3fd19b3c140f03b6e0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2008 Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.hadoop/hadoop-auth@3.3.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://www.apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://www.apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b8e17509-841e-481b-8e1b-31438c014374"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-io-2.15.1.jar",
+    "group" : "commons-io",
+    "name" : "commons-io-2.15.1.jar",
+    "version" : "2.15.1",
+    "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f11560da189ab563a5c8e351941415430e9304ea"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-io/commons-io@2.15.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://www.apache.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://www.apache.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "fd4cf3aa-99ef-439b-b92b-20ed253314a4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "jh-2.0_05-RELEASE68.jar",
+    "group" : "org.netbeans.external",
+    "name" : "jh-2.0_05-RELEASE68.jar",
+    "version" : "RELEASE68",
+    "description" : "POM and identification for artifact that was not possible to uniquely identify as a maven dependency.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "caea9dc54533851149ec39fc1f4d45a02f2443cd"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "CDDL or GPLv2 with exceptions",
+        "url" : "https://javaee.github.io/glassfish/LICENSE"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "purl" : "pkg:maven/org.netbeans.external/jh-2.0_05@RELEASE68",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "8e92d74b-035f-4215-b72f-54c89a6c188c"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "csrp-v1.0",
+    "group" : "mtwilliams",
+    "name" : "csrp-v1.0",
+    "version" : "v1.0",
+    "description" : "Automatically exported from code.google.com/p/csrp",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f01f9f7d7c40d4307f35a2a1664fb9b9fa31fb6b"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "2020 none",
+    "purl" : "pkg:github/mtwilliams/csrp@v1.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/mtwilliams/csrp.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/mtwilliams/csrp/zipball/v1.0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "protobuf-java-3.25.5.jar",
+    "group" : "com.google.protobuf",
+    "name" : "protobuf-java-3.25.5.jar",
+    "version" : "3.25.5",
+    "description" : "Core Protocol Buffers library. Protocol Buffers are a way of encoding structured data in an efficient yet extensible format.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "5ae5c9ec39930ae9b5a61b32b93288818ec05ec1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "Copyright 2008 Google Inc,Copyright 2008 Google Inc",
+    "purl" : "pkg:maven/com.google.protobuf/protobuf-java@3.25.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://developers.google.com/protocol-buffers/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://developers.google.com/protocol-buffers/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b3efb123-c4ad-4311-8db7-1b6c82436759"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "icu-release-67-1",
+    "group" : "unicode-org",
+    "name" : "icu-release-67-1",
+    "version" : "release-67-1",
+    "description" : "The home of the ICU project source code.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6822a4a94324d1ba591b3e8ef084e4491af253c1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "Copyright 1999 Computer Systems and Communication Lab,,Copyright 1999 Pai-Hsiang Hsiao,Copyright 2014 International Business Machines Corporation,Copyright 1995-2016 International Business Machines Corporation and others,Copyright 1995-2016 International Business Machines Corporation and others,Copyright 1999 TaBE Project,Copyright 2006-2011 the V8 project authors,Copyright 2013 LeRoy Benjamin Sharon,Copyright 2013 Brian Eugene Wilson, Robert Martin Campbell,Copyright 2013 International Business Machines Corporation,Copyright 1991-2020 Unicode, Inc,Copyright 2016 and later: Unicode, Inc. and others,Copyright 1996 Chih-Hao Tsai @ Beckman Institute,,Copyright 2006-2008 Google Inc,Copyright 1997-2016 International Business Machines Corporation and others,Copyright 1997-2016 International Business Machines Corporation and others,Copyright 2000-2003 Copyright",
+    "purl" : "pkg:github/unicode-org/icu@release-67-1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/unicode-org/icu.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/unicode-org/icu/releases/download/release-67-1/icu4c-67_1-src.tgz"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "Churn_Quick_Start_Vortex.zip",
+    "group" : "NONE",
+    "name" : "Churn_Quick_Start_Vortex.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "973603d5018349e6dbe73714bf5156ea15ff0bfa"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "tz-2026c",
+    "group" : "eggert",
+    "name" : "tz-2026c",
+    "version" : "2026c",
+    "description" : "Time zone database and code",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "71f28b9ab3b67c0f9466803f6151812d4fc8e357"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:github/eggert/tz@2026c",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/eggert/tz.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/eggert/tz/zipball/2026c"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_french.zip",
+    "group" : "NONE",
+    "name" : "runaccept_french.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9bf3674f5432f9feceeda4f3867bfba0956cb8dd"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "jh.jar",
+    "group" : "NONE",
+    "name" : "jh.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f8a9adbe5c75b590f27f5ecf022b7e95f390a1c3"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "CDDL or GPLv2 with exceptions",
+        "url" : "https://javaee.github.io/glassfish/LICENSE"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "ef1e9044-8b63-42e5-a6d7-f0874851c8af"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "pivot-core.jar",
+    "group" : "NONE",
+    "name" : "pivot-core.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9a75ade10c8023265bde0e00ceb1b0e0ad5af980"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "6bc784e5-aae9-447c-921f-16ec32579945"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "fgp-metadata-proxy-v2020-FME",
+    "group" : "federal-geospatial-platform",
+    "name" : "fgp-metadata-proxy-v2020-FME",
+    "version" : "v2020-FME",
+    "description" : "Middleware to facilitate harvesting of 3rd party metadata services into FGP",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6fea6e2c9387cf1d8fd0446050dd59741728aa43"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:github/federal-geospatial-platform/fgp-metadata-proxy@v2020-FME",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/federal-geospatial-platform/fgp-metadata-proxy.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/federal-geospatial-platform/fgp-metadata-proxy/zipball/v2020-FME"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "slf4j-log4j12-1.7.5.jar",
+    "group" : "slf4j-log4j12-1.7",
+    "name" : "slf4j-log4j12-1.7.5.jar",
+    "version" : "1.7.5",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6edffc576ce104ec769d954618764f39f0f0f10d"
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:maven/org.slf4j/slf4j-log4j12@1.7.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/hbase/1.3.1/hbase-1.3.1-bin.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "5191bae0-bec6-4a65-8a40-d4e71df0e964"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "PROJ-4.7.0",
+    "group" : "OSGeo",
+    "name" : "PROJ-4.7.0",
+    "version" : "4.7.0",
+    "description" : "PROJ - Cartographic Projections and Coordinate Transformations Library",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a9a6974b4c419762f9fa927a0b9b8397c74bd5f0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:github/osgeo/proj@4.7.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/OSGeo/PROJ.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/OSGeo/PROJ/zipball/4.7.0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "spark_vector_provider3.jar",
+    "group" : "NONE",
+    "name" : "spark_vector_provider3.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d2eaff61e6db28ff5978062c559637069239af42"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "fa592c1c-d0d8-4fc3-a0e1-605260b8b4b0"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "iimgmtsvr.jar",
+    "group" : "NONE",
+    "name" : "iimgmtsvr.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "26a4042942f831c1ccf0e334338b99041a2bd9e0"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "50826ab4-f347-4d5f-9a40-2c82cc943779"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "iijdbc.jar",
+    "group" : "NONE",
+    "name" : "iijdbc.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d3398e002e95f8eebf87765f8a72ad9c71fe7a76"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "73e7a1aa-d710-4358-a2c7-b9b6c632203f"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "director.jar",
+    "group" : "NONE",
+    "name" : "director.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "a8fe04f652691af8300bdad9a77f5b7be1fc428b"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9305c9a9-887d-4ba1-8cf5-4b678d2de593"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "vwasj.jar",
+    "group" : "NONE",
+    "name" : "vwasj.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cf23eae583cfceef791761494252bd47f8ff2517"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Suspected Unspecified License"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "17158b68-07c4-4232-9a6b-ce87e9778aff"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "vwxj.jar",
+    "group" : "NONE",
+    "name" : "vwxj.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "15412f06d8558249f8cc8073b69f9818e44c6a35"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "fdadc94e-044b-43eb-938d-3ff9e58cd75f"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "DirectorHelp.jar",
+    "group" : "NONE",
+    "name" : "DirectorHelp.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "61f887a7f389e0dd54c6cb360b2017b0865b6bd5"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9f74d548-b307-43c0-9933-d5b58fd9ba34"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_japanese.zip",
+    "group" : "NONE",
+    "name" : "runaccept_japanese.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "26e4522b989e4ff739e9bfc6eff3e9da447be6c6"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "node-auto-test-v21.6.1",
+    "group" : "nodejs",
+    "name" : "node-auto-test-v21.6.1",
+    "version" : "v21.6.1",
+    "description" : "Node.js clone for testing automation tools",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3dc0e4944f88c9a644eec0c8114920da3bcfa731"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 1991 by the Massachusetts Institute of Technology,Copyright 1999 Computer Systems and Communication Lab,,Copyright 2018-2023 The simdjson authors,Copyright 1998 Massachusetts Institute of Technology,Copyright 2000-2003 Copyright,Copyright 2017-2022 R. Thomas,Copyright 2015 libuv project contributors,Copyright 2018-2020 Guy Bedford,Copyright 2015 International Business Machines Corporation,Copyright 2019 Intel Corporation,Copyright 2012-2022 by various contributors,Copyright 2023 Yagiz Nizipli and Daniel Lemire,Copyright 2021 The simdutf authors,Copyright 2018 Fedor Indutny,,Copyright 1995-2016 International Business Machines Corporation and others,Copyright 2004 Scott James Remnant,Copyright 2016-2023 Unicode, Inc,Copyright 2022 Postman, Inc,Copyright 2006-2008 Google Inc,Copyright 1999 TaBE Project,Copyright 2014 the V8 project authors,Copyright 2020 Node.js contributors,Copyright 2014 International Business Machines Corporation,Copyright 2009 Google Inc,Copyright Node.js contributors,Copyright 1996 Chih-Hao Tsai @ Beckman Institute,,Copyright 1999 Pai-Hsiang Hsiao,Copyright 1995-2023 Jean-loup Gailly and Mark Adler,Copyright 2012-2015 Dan Nicholson,Copyright 2017-2022 Quarkslab,Copyright 2013 LeRoy Benjamin Sharon,Copyright 2013 Brian Eugene Wilson, Robert Martin Campbell,Copyright 2006-2011 the V8 project authors,Copyright 2007-2023 Daniel Stenberg with many contributors,Copyright 2016 and later: Unicode, Inc. and others,Copyright 2000-2006 The Perl Foundation,Copyright 2016 Jean-Philippe Aumasson <jeanphilippe.aumasson@gmail.com>,Copyright 2011-2023 Isaac Z",
+    "purl" : "pkg:github/nodejs/node-auto-test@v21.6.1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/nodejs/node-auto-test.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/nodejs/node-auto-test/zipball/v21.6.1"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_SimplifiedChinese.zip",
+    "group" : "NONE",
+    "name" : "runaccept_SimplifiedChinese.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "adc7b6380a1369be0f870b93d5276b5cee230aa9"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ianatz.zip",
+    "group" : "NONE",
+    "name" : "ianatz.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1545041f7cfeb77a3edfea58ff93774e5f8b56b0"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "rapidjson-v1.1.0",
+    "group" : "Tencent",
+    "name" : "rapidjson-v1.1.0",
+    "version" : "v1.1.0",
+    "description" : "A fast JSON parser/generator for C++ with both SAX/DOM style API",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "f54b0e47a08782a6131cc3d60f94d038fa6e0a51"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "JSON",
+        "url" : "https://spdx.org/licenses/JSON"
+      }
+    }, {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    }, {
+      "license" : {
+        "id" : "BSD-3-Clause",
+        "url" : "http://www.opensource.org/licenses/BSD-3-Clause"
+      }
+    } ],
+    "copyright" : "Copyright 2015 THL A29 Limited, a Tencent company, and Milo Yip,Copyright 2006-2013 Alexander Chemeris,Copyright 2015 THL A29 Limited, a Tencent company, and Milo Yip,Copyright 2002 JSON.org,Copyright 2015 THL A29 Limited, a Tencent company, and Milo Yip",
+    "purl" : "pkg:github/tencent/rapidjson@v1.1.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/Tencent/rapidjson.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/Tencent/rapidjson/zipball/v1.1.0"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_portuguese.zip",
+    "group" : "NONE",
+    "name" : "runaccept_portuguese.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "159fb2a0b7e676a8b04e4e778fc2f7a31ba03aca"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ianatz.zip",
+    "group" : "NONE",
+    "name" : "ianatz.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "3a8e45d57a4ff061dcaa761cd58da935c97d9465"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "doc.zip",
+    "group" : "NONE",
+    "name" : "doc.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d331e3f49f2b7d2ed9a22f7c5eb3f8e09a65a78c"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_traditionalchinese.zip",
+    "group" : "NONE",
+    "name" : "runaccept_traditionalchinese.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "049a68b85cefaee17ea07b2983b225a5f1d65a47"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "openssl-openssl-3.0.12",
+    "group" : "openssl",
+    "name" : "openssl-openssl-3.0.12",
+    "version" : "openssl-3.0.12",
+    "description" : "TLS/SSL and crypto library",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c3cc0f1386b0544383a61244a4beeb762b67498f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 1998-2023 The OpenSSL Project,Copyright 1995-1998 Eric A. Young",
+    "purl" : "pkg:github/openssl/openssl@openssl-3.0.12",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/openssl/openssl.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/openssl/openssl/zipball/openssl-3.0.12"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-logging-api-1.1.3.jar",
+    "group" : "commons-logging-api-1.1",
+    "name" : "commons-logging-api-1.1.3.jar",
+    "version" : "1.1.3",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "4d549b8ad369bfae94ba3ba6a6d8c0cb4524e0dd"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2003-2013 The Apache Software Foundation,Copyright 2003-2013 The Apache Software Foundation,Copyright 2003-2013 The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-logging/commons-logging@1.1.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/commons/logging/binaries/commons-logging-1.1.3-bin.zip"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7173b31c-2395-4bf6-92de-3aecbc85c34b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "pivot-wtk-terra.jar",
+    "group" : "NONE",
+    "name" : "pivot-wtk-terra.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9632632a6efbf9dba1b962b417bcc11c061d5a8a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3e47187e-2188-4080-b60c-063ab397707e"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "guava-32.0.1-jre.jar",
+    "group" : "com.google.guava",
+    "name" : "guava-32.0.1-jre.jar",
+    "version" : "32.0.1-jre",
+    "description" : "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6e5d51a72d142f2d40a57dfb897188b36a95b489"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2010 The Guava Authors",
+    "purl" : "pkg:maven/com.google.guava/guava@32.0.1-jre",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/google/guava"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/google/guava"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "045beb74-6539-410c-bdbc-f0b4fff19d3d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runjar.jar",
+    "group" : "NONE",
+    "name" : "runjar.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ea8d1970d726b15c6f1e2506bd8a4ed9df201889"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "46d273bc-11f0-44df-84b7-72b8a87a1dce"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_spanish.zip",
+    "group" : "NONE",
+    "name" : "runaccept_spanish.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "cc15e5b088e7096e45a55f32d4a8ca3347a094f9"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "2932.03.zip",
+    "group" : "NONE",
+    "name" : "2932.03.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ee8f6b746cb20516914648e1626768f570c849e3"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_german_utf8.zip",
+    "group" : "NONE",
+    "name" : "runaccept_german_utf8.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "432b11145271fd987fec1ad36912aa7bc59ba50d"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "spark_vector_provider2.jar",
+    "group" : "NONE",
+    "name" : "spark_vector_provider2.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "47f60274e1385656fb10defb819fa7cf5f4c6bf4"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "c419e448-c704-4eda-8fba-255bb23c0af8"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "2932.05.zip",
+    "group" : "NONE",
+    "name" : "2932.05.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b686821b2d3d6a2258b49ed691f9f31f8b9cc16c"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "pivot-wtk.jar",
+    "group" : "NONE",
+    "name" : "pivot-wtk.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "ef4bfa9e65eff733afc1dcb3090642164456512f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "7b4534a4-a0b0-45b6-9ff2-56398e57c62d"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "Churn_Quick_Start.zip",
+    "group" : "NONE",
+    "name" : "Churn_Quick_Start.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "25bb806bf02d8d3e16834c3dc65d4a21cff2bd3d"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "matplotlib-basemap-1.0.7",
+    "group" : "jswhit",
+    "name" : "matplotlib-basemap-1.0.7",
+    "version" : "basemap-1.0.7",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e1d5750aab4b2d2c3191bba078a6ae3e2bafa068"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Python-2.0",
+        "url" : "http://opensource.org/licenses/Python-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2011 by Jeffrey Whitaker,Copyright 2000 Frank Warmerdam",
+    "purl" : "pkg:sourceforge/matplotlib@basemap-1.0.7",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://sourceforge.net/projects/matplotlib/"
+    }, {
+      "type" : "distribution",
+      "url" : "https://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/basemap-1.0.7/basemap-1.0.7.tar.gz/download"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "2932.04.zip",
+    "group" : "NONE",
+    "name" : "2932.04.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8943764e43d287dcc2d28b5828e5c3f6e147e203"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-vfs2.jar",
+    "group" : "NONE",
+    "name" : "commons-vfs2.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6cb69ae9e4cd1e21dacf30d67baca47888f151ef"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1d74f8a3-6e3d-4c7b-a176-5b7b3091441b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_korean.zip",
+    "group" : "NONE",
+    "name" : "runaccept_korean.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6cf3469fcbee17e132860bb38ceae1cd618e7c8c"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "non-latin-tests.zip",
+    "group" : "NONE",
+    "name" : "non-latin-tests.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c37c1c3d4463ed41598e91bbe96d4f98e752f103"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-cli-1.2.jar",
+    "group" : "commons-cli-1",
+    "name" : "commons-cli-1.2.jar",
+    "version" : "1.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "2bf96b7aa8b611c177d329452af1dc933e14501c"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2001-2009 The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-cli/commons-cli@1.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/spark/spark-3.2.2/pyspark-3.2.2.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "10a1b35c-ae55-4a1c-83db-bf1a29e50bc4"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_japanese_utf8.zip",
+    "group" : "NONE",
+    "name" : "runaccept_japanese_utf8.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "84c18e5b0e7c090b45ac1c2a85a4516d0ec9d09d"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "lineitem10_utf32be_1.tbl.zip",
+    "group" : "NONE",
+    "name" : "lineitem10_utf32be_1.tbl.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "16f89e72b1b95360a598fbdd8fb0722e3388d6f7"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_italian.zip",
+    "group" : "NONE",
+    "name" : "runaccept_italian.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0d791bc0148f13cff9a12fd97ed45efa86116bfd"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "hadoop-common-3.4.0.jar",
+    "group" : "org.apache.hadoop",
+    "name" : "hadoop-common-3.4.0.jar",
+    "version" : "3.4.0",
+    "description" : "Apache Hadoop Common",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "2b4b1694b695b31cdd8e345b6b59fd74d43a26bc"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2008 Apache Software Foundation,Copyright 2009-2017 Dave Gamble and cJSON contributors",
+    "purl" : "pkg:maven/org.apache.hadoop/hadoop-common@3.4.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://www.apache.org"
+    }, {
+      "type" : "distribution",
+      "url" : "https://www.apache.org"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "475ac9a7-49a6-40fb-a678-203848424460"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "spidermonkey-69-bin-ext1",
+    "group" : "PatriceJiang",
+    "name" : "spidermonkey-69-bin-ext1",
+    "version" : "ext1",
+    "description" : "prebuilt spidermonkey",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1687201169ce365531ad563615c55528c2a0fccf"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MPL-2.0",
+        "url" : "http://mozilla.org/MPL/2.0/index.html"
+      }
+    } ],
+    "copyright" : "2022 Mozilla",
+    "purl" : "pkg:github/patricejiang/spidermonkey-69-bin@ext1",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/PatriceJiang/spidermonkey-69-bin.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/PatriceJiang/spidermonkey-69-bin/zipball/ext1"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-lang-2.6.jar",
+    "group" : "commons-lang-2.6",
+    "name" : "commons-lang-2.6.jar",
+    "version" : "2.6",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "0ce1edb914c94ebc388f086c6827e8bdeec71ac2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2001-2011 The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-lang/commons-lang@2.6",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/spark/spark-3.2.2/pyspark-3.2.2.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "1c1974e3-fbc3-4365-addd-7311cacd8a58"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "libxml2-v2.12.9",
+    "group" : "GNOME",
+    "name" : "libxml2-v2.12.9",
+    "version" : "v2.12.9",
+    "description" : "Read-only mirror of https://gitlab.gnome.org/GNOME/libxml2",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "00301f0fe8bccdb9945fb684e9bbd72449b961a5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 1998-2012 Daniel Veillard,Copyright notices) all the files are:",
+    "purl" : "pkg:github/gnome/libxml2@v2.12.9",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/GNOME/libxml2.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/GNOME/libxml2/zipball/v2.12.9"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ianatz.zip",
+    "group" : "NONE",
+    "name" : "ianatz.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "1fff927b3740a39a58fb5a1572fdba1a592a7ca8"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "azure-data-lake-store-java-2.3.3",
+    "group" : "Azure",
+    "name" : "azure-data-lake-store-java-2.3.3",
+    "version" : "2.3.3",
+    "description" : "Microsoft Azure Data Lake Store Filesystem Library for Java",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "034123238da8b7abd6b2ad902827b716811868a2"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright Microsoft Corporation",
+    "purl" : "pkg:github/azure/azure-data-lake-store-java@2.3.3",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/Azure/azure-data-lake-store-java.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/Azure/azure-data-lake-store-java/zipball/2.3.3"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "asjava.jar",
+    "group" : "NONE",
+    "name" : "asjava.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "e5d6bfc842a47e0a66a42e2358fd3cb530d00240"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Suspected Unspecified License"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "da321fa6-be27-4cfd-a6c1-1dd2d036cbbd"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "log4j-1.2-api-2.17.2.jar",
+    "group" : "log4j-1.2-api-2.17",
+    "name" : "log4j-1.2-api-2.17.2.jar",
+    "version" : "2.17.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "c7d1c308431d34457e0b7d77bb2d926e16973a4d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 1999-2022 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.17.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/logging/log4j/2.17.2/apache-log4j-2.17.2-bin.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "e4d83683-338e-47f6-a4d8-bd6bf2fb6450"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "log4j-core-2.17.2.jar",
+    "group" : "log4j-core-2.17",
+    "name" : "log4j-core-2.17.2.jar",
+    "version" : "2.17.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "70bfabc6ef2d35188ee4615bebc1416080c6f76f"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 1999-2005 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/logging/log4j/2.17.2/apache-log4j-2.17.2-bin.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "299a6557-ff0f-4125-891e-506e3a4bebb7"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "edbc.jar",
+    "group" : "NONE",
+    "name" : "edbc.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "62b02cf9135cd85ff05ba5cd76a451a2d76da11a"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Suspected Unspecified License"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "4cdfd131-c174-4a70-a2f4-9e2374458305"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "slf4j-api-1.7.5.jar",
+    "group" : "slf4j-api-1.7",
+    "name" : "slf4j-api-1.7.5.jar",
+    "version" : "1.7.5",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "6b262da268f8ad9eff941b25503a9198f0a0ac93"
+    } ],
+    "copyright" : "NONE",
+    "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.5",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/netbeans/netbeans/11.3/netbeans-11.3-bin.zip"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3fe53706-ca60-4cc4-8d7b-f4d6fcc418a3"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-collections-3.2.2.jar",
+    "group" : "commons-collections-3.2",
+    "name" : "commons-collections-3.2.2.jar",
+    "version" : "3.2.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2001-2015 The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/spark/spark-3.2.2/pyspark-3.2.2.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "9d2eecc5-ae3b-4230-8635-8074609a779b"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "runaccept_german.zip",
+    "group" : "NONE",
+    "name" : "runaccept_german.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "57bb08122f7bd91a114c1b78ff462e3c39027f05"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "log4j-api-2.17.2.jar",
+    "group" : "log4j-api-2.17",
+    "name" : "log4j-api-2.17.2.jar",
+    "version" : "2.17.2",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "00ae567dabf40eec11027b8be59ebdca65a5ad06"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 1999-2022 The Apache Software Foundation",
+    "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/logging/log4j/2.17.2/apache-log4j-2.17.2-bin.tar.gz"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "18cce167-7f13-417a-8487-261b08cc2b56"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "2932.02.zip",
+    "group" : "NONE",
+    "name" : "2932.02.zip",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9bf12035beaaeba28886c483f8d7661c4dac9eb6"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-validator-1.5.0.jar",
+    "group" : "commons-validator",
+    "name" : "commons-validator-1.5.0.jar",
+    "version" : "1.5.0",
+    "description" : "Apache Commons Validator provides the building blocks for both client side validation and server side data validation. It may be used standalone or with a framework like Struts.",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "26b98c21975c5caf6bf34bacdeb7183be7a65970"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-validator/commons-validator@1.5.0",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "http://www.apache.org/"
+    }, {
+      "type" : "distribution",
+      "url" : "http://www.apache.org/"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "b44eff8a-ba0f-49b3-ada9-37669581fa4a"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "krb5-krb5-1.5.4-final",
+    "group" : "krb5",
+    "name" : "krb5-krb5-1.5.4-final",
+    "version" : "krb5-1.5.4-final",
+    "description" : "mirror of MIT krb5 repository",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "75ef91a8aa00a4df4b8d8d8cf4b702c2fe2f23f7"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "MIT",
+        "url" : "http://www.opensource.org/licenses/MIT"
+      }
+    } ],
+    "copyright" : "Copyright 2001 Dr Brian Gladman <brg@gladman.uk.net>, Worcester, UK,Copyright 2000 by Zero-Knowledge Systems, Inc,Copyright 2004 Sun Microsystems, Inc,Copyright 1985-2007 by the Massachusetts Institute of Technology",
+    "purl" : "pkg:github/krb5/krb5@krb5-1.5.4-final",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "https://github.com/krb5/krb5.git"
+    }, {
+      "type" : "distribution",
+      "url" : "https://github.com/krb5/krb5/zipball/krb5-1.5.4-final"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "asjava.jar",
+    "group" : "NONE",
+    "name" : "asjava.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "d8a5b05575cf3af2e3761991a7245073c9df1ba0"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Suspected Unspecified License"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "a7209d1b-01ec-4ac1-a921-1e696b225696"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "commons-configuration-1.6.jar",
+    "group" : "commons-configuration-1",
+    "name" : "commons-configuration-1.6.jar",
+    "version" : "1.6",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "32cadde23955d7681b0d94a2715846d20b425235"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "id" : "Apache-2.0",
+        "url" : "http://apache.org/licenses/LICENSE-2.0"
+      }
+    } ],
+    "copyright" : "Copyright 2001-2008 The Apache Software Foundation",
+    "purl" : "pkg:maven/commons-configuration/commons-configuration@1.6",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "http://archive.apache.org/dist/storm/apache-storm-1.2.2/apache-storm-1.2.2.zip"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "JAVA_ARCHIVE"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "3d08fcfc-ec5e-4d30-8d47-0a98f9fa7c18"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "hsviewer.jar",
+    "group" : "NONE",
+    "name" : "hsviewer.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "8f513d1b136cf606bf38659d4ff77c349a58e24d"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "CDDL or GPLv2 with exceptions",
+        "url" : "https://javaee.github.io/glassfish/LICENSE"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "2809a5aa-6b78-4276-8adb-7c541031bbee"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "asjava2.jar",
+    "group" : "NONE",
+    "name" : "asjava2.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "9c9092982c42b871d451ab946f74e3476c1eaff1"
+    } ],
+    "licenses" : [ {
+      "license" : {
+        "name" : "Suspected Unspecified License"
+      }
+    } ],
+    "copyright" : "Unspecified Copyright",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "d453acd2-9b55-45c9-9b32-5c035c8d7c7e"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  }, {
+    "type" : "library",
+    "bom-ref" : "ingresSync.jar",
+    "group" : "NONE",
+    "name" : "ingresSync.jar",
+    "version" : "",
+    "description" : "NONE",
+    "hashes" : [ {
+      "alg" : "SHA-1",
+      "content" : "b74ea3bbe2f99f7a509de9a6247d48c84ad9c3a9"
+    } ],
+    "copyright" : "NONE",
+    "externalReferences" : [ {
+      "type" : "website",
+      "url" : "NONE"
+    }, {
+      "type" : "distribution",
+      "url" : "NONE"
+    } ],
+    "properties" : [ {
+      "name" : "pkgType",
+      "value" : "MAVEN_ARTIFACT"
+    }, {
+      "name" : "pkgUuid",
+      "value" : "457dff1e-900b-4960-891a-b72ee81026c6"
+    }, {
+      "name" : "isProprietary",
+      "value" : "true"
+    } ]
+  } ],
+  "dependencies" : [ {
+    "ref" : "Ingres-geo_phase1_final",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "hadoop-hdfs-3.3.3.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "gecko-dev-cb1a97abf3b871b02405f64a585726cc104e5b54",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "cdat-UVCDAT-1.0.0-Ubuntu.10.04-64bit",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "hadoop-auth-3.3.3.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-io-2.15.1.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jh-2.0_05-RELEASE68.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "csrp-v1.0",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "protobuf-java-3.25.5.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "icu-release-67-1",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "Churn_Quick_Start_Vortex.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "tz-2026c",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_french.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "jh.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "pivot-core.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "fgp-metadata-proxy-v2020-FME",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "slf4j-log4j12-1.7.5.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "PROJ-4.7.0",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "spark_vector_provider3.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "iimgmtsvr.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "iijdbc.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "director.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "vwasj.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "vwxj.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "DirectorHelp.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_japanese.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "node-auto-test-v21.6.1",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_SimplifiedChinese.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ianatz.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "rapidjson-v1.1.0",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_portuguese.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "doc.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_traditionalchinese.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "openssl-openssl-3.0.12",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-logging-api-1.1.3.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "pivot-wtk-terra.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "guava-32.0.1-jre.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runjar.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_spanish.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "2932.03.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_german_utf8.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "spark_vector_provider2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "2932.05.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "pivot-wtk.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "Churn_Quick_Start.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "matplotlib-basemap-1.0.7",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "2932.04.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-vfs2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_korean.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "non-latin-tests.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-cli-1.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_japanese_utf8.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "lineitem10_utf32be_1.tbl.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_italian.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "hadoop-common-3.4.0.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "spidermonkey-69-bin-ext1",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-lang-2.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "libxml2-v2.12.9",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "azure-data-lake-store-java-2.3.3",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asjava.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "log4j-1.2-api-2.17.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "log4j-core-2.17.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "edbc.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "slf4j-api-1.7.5.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-collections-3.2.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "runaccept_german.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "log4j-api-2.17.2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "2932.02.zip",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-validator-1.5.0.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "krb5-krb5-1.5.4-final",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "commons-configuration-1.6.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "hsviewer.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "asjava2.jar",
+    "dependsOn" : [ ]
+  }, {
+    "ref" : "ingresSync.jar",
+    "dependsOn" : [ ]
+  } ]
+}

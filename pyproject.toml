@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.18.0", "hatch-vcs>=0.4.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Dependency-Track-SBOM-Importer"
+dynamic = ["version"]
+description = "upload SBOMs using Dependency Track API"
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp==3.13.2",
+    "requests==2.32.5",
+    "python-dotenv==1.2.1"
+]
+
+[project.scripts]
+dt-upload = "upload.dt:run"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.targets.wheel]
+packages = ["upload"]
+
+[tool.uv]
+package = true
