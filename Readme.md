@@ -1,4 +1,4 @@
-# (DT) for HCL Software
+# (DT123) for HCL Software
 
 **Dependency-Track (DT)** will be used as HCL Software's centralized platform for **Software Bill of Materials (SBOM)** management and open-source component visibility.
 
