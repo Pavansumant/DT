@@ -6,7 +6,6 @@ build-backend = "hatchling.build"
 name = "Dependency-Track-SBOM-Importer"
 dynamic = ["version"]
 description = "upload SBOMs using Dependency Track API"
-readme = "readme.md"
 requires-python = ">=3.10"
 dependencies = [
     "aiohttp==3.13.2",
